@@ -1,0 +1,10 @@
+
+(println "                 ANIMAL")
+(println "CREATIVE COMPUTING MORRISTOWN, NEW JERSEY")
+(println "")
+(println "")
+(println "PLAY 'GUESS THE ANIMAL'")
+(println "THINK OF AN ANIMAL AND THE COMPUTER WILL TRY TO GUESS IT.")
+(print "ARE YOU THINKING OF AN ANIMAL? ")
+(flush)
+(if (= (compare (read-line) "Y") 0) (println "YES") (println "NO"))
